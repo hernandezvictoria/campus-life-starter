@@ -1,0 +1,72 @@
+body {
+    background-color: blanchedalmond;
+}
+
+header{
+    background-image: url("images/brown.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin: auto auto auto auto;
+}
+
+#banner-desc{
+    text-align: center;
+}
+
+#brown-img{
+    display:block;
+    margin:auto;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    color:brown;
+    text-align:center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color:maroon;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:maroon;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:gray;
+}
+
+#navigation {
+    display:flex;
+    justify-content:space-evenly;
+    background-color: maroon;
+    margin:100px;
+    padding:10px;
+}
+
+.nav {
+    color:blanchedalmond;
+}
+.nav:hover {
+    font-weight: bold;
+}
+
+#organizations {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#events{
+    display:flex;
+    justify-content:space-evenly;
+}
